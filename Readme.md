@@ -4,11 +4,11 @@ This is a **Form Builder Application** that allows users to create, edit, and vi
 
 ## Features
 
-- **Create Forms**: Users can create forms with multiple sections and input fields.
-- **Edit Forms**: Modify form details, including adding/removing inputs and reordering them.
-- **View Forms**: Display a created form with input validation.
-- **Drag and Drop**: Allows reordering inputs within sections.
-- **Database Storage**: Forms are saved in MongoDB.
+- **Create Forms**: Build forms with multiple sections and various input fields.
+- **Edit Forms**: Update form details by adding, removing, or reordering input fields.
+- **View Forms**: View completed forms with built-in input validation.
+- **Drag and Drop**: Easily rearrange input fields within sections.
+- **Database Storage**: Forms are stored in MongoDB for persistence.
 
 ## Technologies Used
 
@@ -45,7 +45,7 @@ Create a `.env` file in the `server/` folder and add:
 ```
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
-
+```
 
 Create a `.env` file in the `client/` folder and add:
 
@@ -57,7 +57,7 @@ VITE_API_URI = your_backend_server_link
 #### **Run the Backend**
 
 ```bash
-nodemon index.js
+npm start
 ```
 
 ### **3. Frontend Setup**
@@ -85,7 +85,7 @@ npm run dev
 
 ## Usage
 
-- Open `http://localhost:5000` in the browser to access the frontend.
+- Open `http://localhost:5173` in the browser or ctrl+click on the link in terminal to access the frontend.
 - Create, edit, or view forms using the UI.
 
--This README.md file provides a clear and concise overview of your project, making it easy for others to understand and contribute. Let me know if you need further assistance! 🚀
+Now you can see the application running
