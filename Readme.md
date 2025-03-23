@@ -4,11 +4,11 @@ This is a **Form Builder Application** that allows users to create, edit, and vi
 
 ## Features
 
-- **Create Forms**: Build forms with multiple sections and various input fields.
-- **Edit Forms**: Update form details by adding, removing, or reordering input fields.
-- **View Forms**: View completed forms with built-in input validation.
-- **Drag and Drop**: Easily rearrange input fields within sections.
-- **Database Storage**: Forms are stored in MongoDB for persistence.
+- **Create Forms**: Users can create forms with multiple sections and input fields.
+- **Edit Forms**: Modify form details, including adding/removing inputs and reordering them.
+- **View Forms**: Display a created form with input validation.
+- **Drag and Drop**: Allows reordering inputs within sections.
+- **Database Storage**: Forms are saved in MongoDB.
 
 ## Technologies Used
 
@@ -27,8 +27,8 @@ This is a **Form Builder Application** that allows users to create, edit, and vi
 ### **1. Clone the Repository**
 
 ```bash
-git https://github.com/Manibingi/Form-Builder.git
-cd Form-Builder
+git clone https://github.com/livan116/FormBuilder.git
+cd FormBuilder
 ```
 
 ### **2. Backend Setup**
@@ -47,13 +47,6 @@ PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 ```
 
-Create a `.env` file in the `client/` folder and add:
-
-```
-VITE_API_URI = your_backend_server_link
-
-```
-
 #### **Run the Backend**
 
 ```bash
@@ -65,6 +58,13 @@ npm start
 ```bash
 cd client
 npm install
+```
+
+Create a `.env` file in the `client/` folder and add:
+
+```
+VITE_API_URI = your_backend_server_link
+
 ```
 
 #### **Run the Frontend**
